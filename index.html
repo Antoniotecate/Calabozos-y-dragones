@@ -26,7 +26,73 @@
 
 	      
 
-				
+<BODY BGCOLOR="SILVER" TEXT="BLACK">
+
+
+  
+
+    <script>
+        function search() {
+            const query = document.getElementById('searchQuery').value;
+            if (query) {
+                const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                window.open(url, '_blank');
+            } else {
+                alert('Por favor, escribe algo para buscar.');
+            }
+        }
+    </script>
+
+
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between; /* Espaciado uniforme entre cuadros */
+      align-items: center; /* Alineación vertical */
+      margin: 20px;
+    }
+    .box {
+      width: 500px;
+      height: 200px;
+      background-color: #4CAF50; /* Color verde */
+      margin: 10px;
+      text-align: center;
+      line-height: 100px; /* Centrar texto verticalmente */
+      color: white;
+      font-weight: bold;
+      border-radius: 8px; /* Bordes redondeados */
+      font-size: 35px;
+    }
+  </style>
+
+  </div>
+  <div class="container">
+ 
+    <img class="photo" src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\juegos de mesa.jpg" alt="Foto de ejemplo">
+    <div class="box">Juegos de mesa</div>
+
+
+   <div class="anuncio">
+        <img src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\Uno no mercy.jpg" alt="Producto">
+        <h1>¡Oferta Especial!</h1>
+        <p>Compra ahora y obtén un 20% de descuento en todos nuestros productos. ¡No te lo pierdas!</p>
+        <a href="#">Comprar Ahora</a>
+  </div>
+
+
+  </div>
+  </div>
+  <style>
+    .cuadro-texto {
+      width: 1400px; /* Ancho del cuadro */
+      height: 150px; /* Alto del cuadro */
+      border: 4px solid #4CAF50; /* Color y grosor del borde */
+      padding: 10px; /* Espaciado interno */
+      overflow-y: scroll; /* Barra de desplazamiento vertical */
+      background-color: #f9f9f9; /* Color de fondo */
+      border-radius: 5px; /* Bordes redondeados (opcional) */
+    }
+  </style>				
 
   <h3>Reglas del juego Calabozos y Dragones</h3>
   <div class="cuadro-texto">
